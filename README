@@ -1,1 +1,4 @@
-recup
+recup_followers_from_twitch : Code python permettant de faire des appels à l'API de twitch et de récuperer tous les followers d'une personnes
+recup_lien_entre_followers : Code python permettant de récuperer les follows entre les personnes de la liste de départ
+Fractale de Koch : Code python dessinant une Fractale avec le module turtle
+Tour de hanoï : Code python permettant la création d'un jeu de tour de Hanoï ainsi que sa résolution
