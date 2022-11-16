@@ -2,3 +2,6 @@ recup_followers_from_twitch : Code python permettant de faire des appels à l'AP
 recup_lien_entre_followers : Code python permettant de récuperer les follows entre les personnes de la liste de départ
 Fractale de Koch : Code python dessinant une Fractale avec le module turtle
 Tour de hanoï : Code python permettant la création d'un jeu de tour de Hanoï ainsi que sa résolution
+
+
+Lien vers les visualisations réalisées à partir des codes sur le API twitch : https://www.easyzoom.com/profile/134895
