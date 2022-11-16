@@ -5,7 +5,7 @@ import requests
 follower_login=[]
 follower_id=[]
 #import le csv de followers sous forme de liste
-with open('followers_Lunhaku.csv', 'r') as read_obj:
+with open('followers_streamer.csv', 'r') as read_obj:
     csv_reader = csv.reader(read_obj)
     list_of_csv = list(csv_reader)
 
@@ -17,14 +17,14 @@ for i in range(1,len(list_of_csv)):
 
 
 # The basic usage is to first define the rows (ligne) of the csv file:
-row_list = [[ "Lunhaku_follower_login","Follow_login"]]
+row_list = [[ "streamer_follower_login","Follow_login"]]
 #----------------------------------------------------------------
 #len(follower_id_int)
 for j in range(1,len(follower_login)):
 
     headers = {
-        'Authorization': 'Bearer s56h8wpv4ic0rmwo1fa0t1jm8blrmb',
-        'Client-Id': 'k5fvr05r8203peanbojpk2pbt1vzz0',
+        'Authorization': 'Bearer ***',
+        'Client-Id': '***',
     }
 
     params = {
@@ -50,7 +50,7 @@ for j in range(1,len(follower_login)):
 #--------------------------------------------------------------------------------
 
 # And then use the following to create the csv file:
-with open('lien_followers_Lunhaku.csv', 'w', newline='') as file:
+with open('lien_followers_streamer.csv', 'w', newline='') as file:
     writer = csv.writer(file)
     writer.writerows(row_list)
 # This will create a csv file in the current directory
