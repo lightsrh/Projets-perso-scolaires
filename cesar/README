@@ -1,1 +1,3 @@
 Programmes permettant le chiffrement et le déchiffrement de fichier textes avec la méthode de Cesar
+Ecrire le texte dans le fichier cesar_original puis lancer le programme_complet
+Le texte chiffré sera dans le fichier cesar_a_decoder
